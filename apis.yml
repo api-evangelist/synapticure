@@ -1,8 +1,30 @@
 aid: synapticure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synapticure.png
 name: Synapticure
-description: 'Synapticure is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Synapticure is a virtual-first telehealth company delivering comprehensive,
+  specialist neurology care for people living with neurodegenerative and complex
+  neurological conditions, including ALS/PLS, Parkinson's, Alzheimer's, dementia,
+  Huntington's, and multiple sclerosis. Founded in 2021 by ALS patient Brian
+  Wallach and caregiver Sandra Abrevaya, the company integrates 24/7 access to
+  neurologists, behavioral health (psychiatry and therapy), care coordination,
+  genetic testing, clinical-trial navigation, and insurance support into a single
+  virtual care experience available in all 50 states and covered by most
+  insurance. It is accredited by The Joint Commission and maintains AICPA SOC 2
+  compliance. Synapticure operates as a healthcare provider and does not publish
+  a public developer program or API; this profile was surfaced as a GV portfolio
+  company and enriched with real, published identity and security signals.
 url: https://raw.githubusercontent.com/api-evangelist/synapticure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Telehealth
+- Neurology
+- Digital Health
+- Virtual Care
+- Patient Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://synapticure.com
+  url: https://www.synapticure.com
+- type: Blog
+  url: https://www.synapticure.com/blog
+- type: Support
+  url: https://www.synapticure.com/contact
+- type: SignUp
+  url: https://my.synapticure.com
+- type: TermsOfService
+  url: https://www.synapticure.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.synapticure.com/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/synapticure-inc
+- type: DomainSecurity
+  url: security/synapticure-domain-security.yml
+- type: WellKnown
+  url: well-known/synapticure-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

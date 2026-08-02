@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.synapticure.com/.well-known/*
+host: https://www.synapticure.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: >-
+  Synapticure is a virtual-first telehealth provider for neurodegenerative
+  disease (ALS, Parkinson's, Alzheimer's, dementia, MS). It publishes no public
+  developer/API surface; no .well-known discovery documents or llms.txt were
+  present at probe time.
